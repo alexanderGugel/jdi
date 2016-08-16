@@ -2,8 +2,6 @@
 This is the actual `jdi` executable which is being declared as `bin` in the
 `package.json` file. Whenever a user runs `jdi`, this is the file that is
 being run.
-```js
-```
 ## module dependencies
 We're using [`commander`](https://www.npmjs.com/package/commander) for
 parsing command line arguments and generating the `--help` output. We tried
@@ -54,4 +52,4 @@ jdi.run(process.cwd(), filenames)
 
 ```
 ------------------------
-Generated _Tue Aug 16 2016 02:09:12 GMT+0100 (BST)_ from `jdi`
+Generated _Wed Aug 17 2016 00:23:19 GMT+0100 (BST)_ from `jdi`

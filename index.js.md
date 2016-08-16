@@ -255,4 +255,4 @@ exports.Transform = Transform
 
 ```
 ------------------------
-Generated _Tue Aug 16 2016 23:19:02 GMT+0100 (BST)_ from `index.js`
+Generated _Wed Aug 17 2016 00:23:19 GMT+0100 (BST)_ from `index.js`
