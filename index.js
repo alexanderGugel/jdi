@@ -114,11 +114,13 @@ function flushFunction (cb) {
 	// the date when the file has been generated, as well as the relative
 	// filename of the processed file itself.
 	const {file} = this.options
+	// The `.md` file will be in the same directory as the source file. We only
+	// need the basename.
+	const basename = path.basename(file)
 	const date = String(new Date())
 	this.push('------------------------\n')
-	this.push(`Generated _${date}_ from \`${path.basename(file)}\``)
+	this.push(`Generated _${date}_ from [&#x24C8; ${basename}](${basename} "View in source")\n`)
 	this.push('\n')
-
 	cb()
 }
 
