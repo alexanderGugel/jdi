@@ -1,4 +1,4 @@
-# `jdi`
+# :blue_book: `jdi`
 
 [![Build Status](https://travis-ci.org/alexanderGugel/jdi.svg)](https://travis-ci.org/alexanderGugel/jdi)
 [![GitHub version](https://img.shields.io/github/tag/alexanderGugel/jdi.svg)](https://github.com/alexanderGugel/jdi)
