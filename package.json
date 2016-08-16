@@ -1,6 +1,6 @@
 {
   "name": "jdi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a Markdown documentation generator",
   "bin": "jdi",
   "scripts": {
