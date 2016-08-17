@@ -31,7 +31,7 @@ const isIgnored = /^.*jdi-disable-line$/
 
 // ## `transformFunction`
 function transformFunction (chunk, enc, cb) {
-	const {extname} = this.options
+	const extname = this.options.extname
 
 	// ### shebang
 	// Are we currently processing the first line of the file in question?
@@ -113,7 +113,7 @@ function flushFunction (cb) {
 	// Here we append a footer to the generated `.md` file. The footer includes
 	// the date when the file has been generated, as well as the relative
 	// filename of the processed file itself.
-	const {file} = this.options
+	const file = this.options.file
 	// The `.md` file will be in the same directory as the source file. We only
 	// need the basename.
 	const basename = path.basename(file)
