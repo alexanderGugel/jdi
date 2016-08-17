@@ -42,7 +42,7 @@ const isIgnored = /^.*jdi-disable-line$/
 ## `transformFunction`
 ```js
 function transformFunction (chunk, enc, cb) {
-	const {extname} = this.options
+	const extname = this.options.extname
 
 ```
 ### shebang
@@ -158,7 +158,7 @@ Here we append a footer to the generated `.md` file. The footer includes
 the date when the file has been generated, as well as the relative
 filename of the processed file itself.
 ```js
-	const {file} = this.options
+	const file = this.options.file
 ```
 The `.md` file will be in the same directory as the source file. We only
 need the basename.
@@ -259,5 +259,5 @@ exports.Transform = Transform
 
 ```
 ------------------------
-Generated _Wed Aug 17 2016 00:33:29 GMT+0100 (BST)_ from [&#x24C8; index.js](index.js "View in source")
+Generated _Wed Aug 17 2016 21:45:13 GMT+0100 (BST)_ from [&#x24C8; index.js](index.js "View in source")
 
