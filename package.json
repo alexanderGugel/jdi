@@ -2,7 +2,9 @@
   "name": "jdi",
   "version": "1.1.2",
   "description": "a Markdown documentation generator",
-  "bin": "jdi",
+  "bin": {
+    "jdi": "jdi"
+  },
   "scripts": {
     "test": "tape test/*.js"
   },
@@ -19,5 +21,17 @@
     "glob": "^7.0.5",
     "split": "^1.0.0",
     "through2": "^2.0.1"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderGugel/jdi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/jdi/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/jdi#readme"
 }
