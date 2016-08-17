@@ -6,7 +6,8 @@
     "jdi": "jdi"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js && npm run lint",
+    "lint": "eslint **/*.js jdi"
   },
   "keywords": [],
   "author": "",
